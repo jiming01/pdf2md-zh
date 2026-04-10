@@ -1,7 +1,7 @@
 [project]
 name = "pdf2md"
 version = "0.1.0"
-description = "Add your description here"
+description = "PDF to Markdown translation tool using PaddleOCR and DeepSeek"
 readme = "README.md"
 authors = [
     { name = "jimingSu", email = "231880303@smail.nju.edu.cn" }
