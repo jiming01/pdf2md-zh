@@ -2,6 +2,13 @@
 
 一个将PDF文档转换为Markdown格式并翻译英文内容为中文的工具。结合了PaddleOCR的文档结构识别和DeepSeek大模型的智能翻译能力。
 
+
+
+
+
+
+
+
 ## ✨ 功能特性
 
 - **PDF结构解析**：使用PaddleOCR-VL-1.5 API提取PDF文档的文本结构和布局
