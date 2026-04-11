@@ -82,7 +82,7 @@ OCR 识别效果和最终翻译格式直接依赖于底层模型（PaddleOCR 与
 由于 GitHub 的 Markdown 渲染对于公式不友好，下面展示本工具生成的双语翻译文本在 Obsidian 等专业 Markdown 软件中的实际渲染效果：
 
 <div align="center">
-  <img src="example/capture_20260411171432028.bmp" width="32%" />
-  <img src="example/capture_20260411171646539.bmp" width="32%" />
-  <img src="example/capture_20260411171732813.bmp" width="32%" />
+  <img src="example/capture_20260411171432028.bmp" width="75%" />
+  <img src="example/capture_20260411171646539.bmp" width="75%" />
+  <img src="example/capture_20260411171732813.bmp" width="75%" />
 </div>
