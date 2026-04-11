@@ -1,4 +1,4 @@
-# PDF2MD - PDF转Markdown翻译工具
+# PDF2MD-ZH - PDF转Markdown翻译工具
 
 一个将PDF文档转换为Markdown格式并翻译英文内容为中文的工具。结合了PaddleOCR的文档结构识别和DeepSeek大模型的智能翻译能力。
 
@@ -228,39 +228,7 @@ temperature = 1.3
    - 移除块公式的缩进问题
    - 确保公式在Markdown中正确渲染
 
-### 中期改进（v0.3.0）
 
-4. **语义连贯性**
-   - 智能段落合并算法
-   - 跨页内容语义连接
-   - 上下文感知的翻译
-
-5. **性能优化**
-   - 本地缓存已处理页面
-   - 增量更新机制
-   - 并行图片下载
-
-6. **用户体验**
-   - 命令行参数支持
-   - 配置文件管理
-   - 进度条和详细日志
-
-### 长期规划（v1.0.0）
-
-7. **功能扩展**
-   - 支持多种语言翻译
-   - 自定义输出格式
-   - 批量处理支持
-
-8. **本地化部署**
-   - 本地OCR模型集成
-   - 离线翻译选项
-   - Docker容器化
-
-9. **质量提升**
-   - 翻译质量评估
-   - 格式保持优化
-   - 错误自动修复
 
 ## 🛠️ 技术栈
 
@@ -314,9 +282,7 @@ system_prompt = """
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 开启Pull Request
 
-## 📄 许可证
 
-本项目采用MIT许可证。详见 [LICENSE](LICENSE) 文件。
 
 ## 🙏 致谢
 
@@ -324,12 +290,7 @@ system_prompt = """
 - [DeepSeek](https://www.deepseek.com/) 提供强大的语言模型
 - 所有贡献者和用户的支持
 
-## 📞 支持与反馈
 
-如有问题或建议，请通过以下方式联系：
-
-- 提交 [GitHub Issue](https://github.com/yourusername/pdf2md/issues)
-- 邮件联系：231880303@smail.nju.edu.cn
 
 ---
 
