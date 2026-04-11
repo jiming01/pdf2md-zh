@@ -1,4 +1,4 @@
-# pdf2md
+# pdf2md-zh
 
 一个实用的 PDF 转双语 Markdown 工具。项目基于 PaddleOCR 提取文档结构与排版，并调用 DeepSeek 大模型对提取的英文内容进行翻译，最终生成中英对照的 Markdown 文件。
 
@@ -72,3 +72,17 @@ agent = PDF2MD(
 ```
 
 处理完成后，生成的文本与图片将会统一保存在 `md/<pdf-文件名>/` 目录下。
+
+## 注意事项
+
+OCR 识别效果和最终翻译格式直接依赖于底层模型（PaddleOCR 与 DeepSeek）的能力。在实际使用中，可能会出现非预期的情况（如排版错位、公式识别不准或特殊字符遗漏）。一般可以通过重新运行对应的段落，或进行简单的手动排版对齐即可解决。
+
+## 效果展示
+
+由于 GitHub 的 Markdown 渲染对于公式不友好，下面展示本工具生成的双语翻译文本在 Obsidian 等专业 Markdown 软件中的实际渲染效果：
+
+<div align="center">
+  <img src="example/capture_20260411171432028.bmp" width="32%" />
+  <img src="example/capture_20260411171646539.bmp" width="32%" />
+  <img src="example/capture_20260411171732813.bmp" width="32%" />
+</div>
