@@ -11,3 +11,6 @@ wheels/
 # environments config
 .env
 
+AGENTS.md
+
+
